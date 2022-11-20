@@ -1,0 +1,563 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+/* Index style start */
+:root {
+    --bgcolor: #0A3F41;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.logoice {
+    font-family: Edwardian Script ITC;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navrow {
+    color: var(--bgcolor);
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.aboutcontent {
+    box-shadow: 0px 0px 4px -1px grey;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.productcart {
+    box-shadow: 0px 0px 1px 0px grey;
+    border-radius: 4px;
+    margin: 5px;
+    color: var(--bgcolor);
+}
+
+    .productcart:hover {
+        box-shadow: 0px 0px 0px 100px var(--bgcolor) inset;
+        margin: 5px;
+        color: white;
+        border-radius: 4px;
+    }
+
+.productcartimg {
+    height: 180px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.siddiv {
+    height: 500px;
+    width: 50%;
+}
+
+.imglogo {
+    height: 50px;
+    width: 150px;
+}
+
+#cotactnav {
+    margin-top: -300px;
+}
+
+.tcolor {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.backimg1 {
+    background-image: url(../Images/Icecream1.jpg);
+    background-size: cover;
+}
+
+.backimg {
+    background-image: url(../Images/ice1.jpg);
+    background-size: cover;
+}
+.footecopy{
+    transform:translateY(60px);
+}
+.navdata {
+    font-family: Bahnschrift SemiLight;
+}
+
+    .navdata:hover {
+        color: var(--bgcolor);
+    }
+
+.Icetitle {
+    font-size: 40px;
+    color: var(--bgcolor);
+}
+
+.icemenu {
+    height: 150px;
+}
+
+.animat:nth-of-type(odd) {
+    transform: translateX(-800%);
+    transition: all ease 1s;
+}
+
+.animat:nth-of-type(even) {
+    transform: translateX(+800%);
+    transition: all ease 1s;
+}
+
+.animat.show {
+    transform: translateX(0%);
+    transition: all ease .5s;
+}
+
+.icemenu img {
+    height: 150px;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px -2px black;
+}
+
+    .icemenu img:hover {
+        transform: scale(1.1);
+        transition: all 1;
+    }
+
+.rounddiv {
+    min-height: 300px;
+}
+
+.textdata {
+    font-size: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: whitesmoke;
+}
+
+.textdivision {
+    color: var(--bgcolor);
+}
+
+.Vanillaice {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btnknowmore {
+    background-color: var(--bgcolor);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 2px;
+    padding: 12px;
+    transition: all ease 1s;
+}
+
+    .btnknowmore:hover {
+        background-color: white;
+        border: 1px solid var(--bgcolor);
+        color: var(--bgcolor);
+        font-size: 17px;
+        border-radius: 2px;
+        transition: all ease 1s;
+    }
+
+.discountdiv {
+    box-shadow: 0px 0px 5px -1px grey;
+}
+
+.mobileno {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--bgcolor);
+}
+
+.ordertext {
+    text-align: justify;
+}
+
+.allpagetext {
+    font-size: 25px;
+}
+    .allpagetext1{
+        font-size:23px;
+    }
+
+    .mobno {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--bgcolor);
+        padding-left: 12px;
+    }
+
+.contsctus #inputbtn {
+    padding: 10px;
+    width: 240px;
+    outline: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+
+.contsctus #inputbtn1 {
+    padding: 8px;
+    width: 70px;
+    font-size: 16px;
+    background-color: var(--bgcolor);
+    color: whitesmoke;
+    border: 2px solid white;
+}
+
+.social {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+    .social a {
+        padding-right: 8px;
+        color: whitesmoke;
+    }
+
+.aboutover {
+    height: 400px;
+}
+
+#imgtrasfor {
+    transform: translateY(-6px);
+}
+
+.floatbtn {
+    height: 45px;
+    width: 45px;
+    background-color: var(--bgcolor);
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+}
+
+.floatbtn1 {
+    height: 45px;
+    width: 45px;
+    border-bottom: 1px solid white;
+    background-color: var(--bgcolor);
+    position: fixed;
+    top: 245px;
+    right: 0px;
+}
+
+.floatbtn2 {
+    height: 45px;
+    width: 45px;
+    background-color: var(--bgcolor);
+    position: fixed;
+    top: 290px;
+    right: 0px;
+}
+
+.fixedimg {
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.divborder {
+    box-shadow: 0px 0px 5px -1px grey;
+    width: 24%;
+    transition: all ease 1s;
+}
+
+.chooseicon {
+    text-align: center;
+    font-size: 75px;
+}
+
+.textda {
+    text-align: justify;
+}
+
+
+.roudedimg {
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+    .roudedimg:hover {
+        transform: scale(1.1);
+        transition: all ease .5s;
+    }
+
+.icedatatext {
+    font-size: 30px;
+}
+
+.itemhover:hover {
+    box-shadow: 0px 0px 0px 5px white inset;
+    background-color: var(--bgcolor);
+    border-radius: 7px;
+    transition: all ease 1s;
+    color: white;
+}
+
+.itemhover {
+    color: var(--bgcolor);
+    transition: all ease 1s;
+}
+
+@media (min-width:0px) and (max-width:650px) {
+    .icemenunon {
+        display: none;
+    }
+
+    .icetitelnon {
+        font-size: 20px;
+    }
+
+    .Vanillaice {
+        font-size: 20px;
+    }
+
+    .btnknowmore {
+        margin: 0px auto;
+        font-size: 10px;
+    }
+
+    .check_img {
+        display: none;
+    }
+
+    .checkrow {
+        min-height: 1100px;
+    }
+
+    .imgtrasfor {
+        margin-top: 20px;
+    }
+
+    .abshop {
+        font-size: 15px;
+    }
+
+    .abouttext {
+        font-size: 12px;
+        text-align: justify;
+        overflow: hidden;
+    }
+
+    .producttext {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .chooseicon {
+        font-size: 50px;
+    }
+
+    .itemhover {
+        width: 47%;
+    }
+
+    .whychosedivrow {
+        min-height: 750px;
+    }
+
+    .deliverydiv1 {
+        min-height: 800px;
+    }
+
+    .contdivrow {
+        min-height: 440px;
+    }
+
+    #inputbtn {
+        width: 250px !important;
+    }
+
+    .contsctus {
+        min-height: 300px;
+    }
+
+    .footecopy {
+        transform: translateY(155px);
+    }
+
+    .icemenu {
+        margin: 7px;
+    }
+
+    .allpagetext, .allpagetext1 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:650px) and (max-width:800) {
+    .textdata {
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:576px) and (max-width:750px) {
+    .roudedimg {
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .checkrow {
+        min-height: 300px;
+        font-size: 14px;
+    }
+
+    .textmargin {
+        margin-top: 100px;
+    }
+
+    .icedatatext {
+        font-size: 20px;
+    }
+
+    .discountdiv {
+        min-height: 500px;
+    }
+
+    .icedatatextdiv {
+        font-size: 14px;
+    }
+
+    .imgheightice {
+        min-height: 500px;
+    }
+
+    .deliverydiv1 {
+        min-height: 550px;
+    }
+
+    .contdivrow {
+        min-height: 400px;
+    }
+
+    #inputbtn {
+        width: 110px !important;
+    }
+}
+
+@media (min-width:600px) and (max-width:850px) {
+    .Vanillaice {
+        font-size: 25px;
+    }
+
+    .btnknowmore {
+        font-size: 12px;
+    }
+
+    .abouttext {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:650px) and (max-width:900px) {
+    .itemhover {
+        width: 23%;
+    }
+
+    .producttext {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:750px) and (max-width:1000px) {
+    .icedatatext {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:750px) and (max-width:1200px) {
+    .inputbtn {
+        width: 20px !important;
+    }
+
+    .footecopy {
+        transform: translateY(60px);
+    }
+} 
+/* Index style ends */

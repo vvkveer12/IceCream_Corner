@@ -1,0 +1,123 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="row">
+    <div class="col-sm-12 tcolor backimg1">
+        <nav class="navbar navbar-expand-lg ps-5 mb-3 fs-5">
+            <a class="navbar-brand logoice" href="#"><img src="Images/icecreamlogo.jfif" class="imglogo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/About">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Products">Products</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="row pt-3 mb-5" style="color:var(--bgcolor)">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 fw-bolder allpagetext text-center py-5 px-3 rounded" style="background-color: rgba(255, 255, 255, .4);">
+                WE ARE REASON FOR HAPPINESS <br />
+
+                DELICIOUS AND MELODIOUS INSPIRATION<br />
+
+                DISCOVER THE SECRET TASTE OF BEST INGREDIENTS<br />
+                TEASE YOUR TASTE BUDS WITH CLASSY SELECTION<br />
+
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+    </div>
+    <div class="row m-3 fs-1 fw-bold" style="color:var(--bgcolor);text-align: center;">
+        <p>About Us </p>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 aboutcontent p-5">
+            Daylily Foods started with the vision to manufacture premium quality ice cream products with
+            passion for delivering irresistible ice cream delicacy to our valued customers. Daylily is a
+            brand which brings reason to celebrate happy movement with their loved family and friends. Our
+            ice cream gets its unique, great taste from dedication to monitoring raw material quality,
+            hygiene and attention to detail in selection of its ingredients for ice cream production.
+            Through our careful selection of top notch raw materials, processing and packaging, we have been
+            able to retain great taste.  <br /> <br />Our dedication to quality and quality is believed to be a dynamic
+            process which requires continuous monitoring and up gradation. Thus it is our constant endeavor
+            to make innovative, safer, tastier, creamier and lip-smacking ice creams.
+            Daylily foods is leading manufacturer and supplier of premium ice creams in Bangalore. We supply
+            a range of ice cream products to cafes, restaurants, hotels, caterers, wholesalers, distributors
+            and happy occasion like private parties, weddings, corporate events, birthday party or any other
+            happy events because our ice cream makes people more cheerful.
+            Fast moving ahead with its path-breaking innovations, strategic goal, plan of action for
+            excellence and fruitful partnerships, Daylily is all set to become most loved ice-cream brand, a
+            delicious and tasty scoop of happiness that will be served by us.
+
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="row mt-5 contdivrow" style="height:250px;">
+        <div class="col-sm-1 col-md-1"></div>
+        <div class="col-sm-4 col-md-4 contsctus p-4">
+            <div class="fs-2 text-center fw-bold" style="color:var(--bgcolor)">Contact Us</div>
+            <div class="m-3">
+                <b>Daylily Foods Pvt. Ltd.</b>,<br />
+                #27/1, Kadabagere, Bangalore North,<br />
+                Bangalore-562130, Karnataka
+            </div>
+            <a href="tel:7019177208" class="mobno">
+                <i class="bi bi-telephone-outbound"></i>&nbsp;+91
+                7019177208
+            </a><br />
+            <a href="emaito:daylilyfoods@gmail.com" class="mobno">
+                <i class="bi bi-envelope"></i>&nbsp;daylilyfoods@gmail.com
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-6 contsctus" style="background-color:var(--bgcolor)">
+            <div class="fs-3 text-light p-4 fw-bold">
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+                Totam dolor ?
+            </div>
+            <div class="ps-4 pe-5">
+                <input type="text" id="inputbtn" placeholder="Enter you email here!"><input type="submit"
+                                                                                            id="inputbtn1" value="Submit" />
+            </div>
+            <div class="social mt-4 ps-4">
+                <a href="www.facebook.com/daylily.in"><i class="bi bi-facebook"></i></a>
+                <!-- <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a> -->
+            </div>
+
+        </div>
+        <div class="col-sm-1 col-md-1"></div>
+    </div>
+
+
+</div>
+<div class="floatbtn">
+    <a href="#"><img src="Images/insta.jfif" class="fixedimg" alt=""></a>
+</div>
+<div class="floatbtn1">
+    <a href="#"><img src="Images/twitter.jfif" class="fixedimg" alt=""></a>
+
+</div>
+<div class="floatbtn2">
+    <a href=""><img src="Images/what.jfif" class="fixedimg" alt=""> </a>
+
+</div>
+<div class="row mt-3 bg-black text-light ps-5 footecopy">&copy; 2022 by Daylilyfoods</div>
+    </div>
